@@ -13,7 +13,7 @@ namespace EDS_App
         {
             InitializeComponent();
 
-            MainPage = new EDS_App.MainPage();
+            MainPage = new Pages.LoginPage();
         }
 
         protected override void OnStart()
